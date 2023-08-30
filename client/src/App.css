@@ -63,7 +63,67 @@
 
 
 
-.custom-carousel-image {
+.* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.custom-navbar {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  width: 100%; /* Make the navbar full-width */
+  /* z-index: 1000; Ensure the navbar appears above other content */
+}
+
+.custom-navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 10 auto;
+  padding: 8px 35px;
+  justify-content: flex-start; /* Align elements to the left */
+}
+
+
+.custom-navbar-brand {
+  font-size: 32px;
+  text-decoration: none;
+  color: white;
+}
+
+.custom-navbar-buttons {
+  display: flex;
+  gap: 10px; /* Add gap between buttons */
+  margin-top: -5px; /* Adjust the gap's top margin for better alignment */
+  margin-left: auto;
+}
+
+.custom-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.custom-btn-info {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.custom-btn-warning {
+  background-color: #ffc107;
+  color: white;
+}
+
+custom-carousel-image {
   height: 700px; /* Set your desired height */
   object-fit: cover;
 }
