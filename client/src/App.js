@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './componenet/Navbar';
-import Carousal from './componenet/Carousal';
+import Carousel from './componenet/Carousel';
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
     
     <Navbar/>
-    <Carousal/>
+    <Carousel/>
     </div>
   );
 }
