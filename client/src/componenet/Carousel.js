@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Carousal = () => {
+const Carousel = () => {
   return (
     <div id="carouselExample" className="carousel slide sticky-top" style={{ marginTop: '65px' }}>
       <div className="carousel-inner">
@@ -48,4 +48,4 @@ const Carousal = () => {
   );
 };
 
-export default Carousal;
+export default Carousel;
